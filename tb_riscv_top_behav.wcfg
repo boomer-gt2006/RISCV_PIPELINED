@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_riscv_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_riscv_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="130.601 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="162"></NameColumnWidth>
+      <ValueColumnWidth column_width="81"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/tb_riscv_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/MemWrite" type="logic">
+      <obj_property name="ElementShortName">MemWrite</obj_property>
+      <obj_property name="ObjectShortName">MemWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/DataAdr" type="array">
+      <obj_property name="ElementShortName">DataAdr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataAdr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/decode/ImmExtD" type="array">
+      <obj_property name="ElementShortName">ImmExtD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ImmExtD[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/ALUResultM" type="array">
+      <obj_property name="ElementShortName">ALUResultM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultM[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/execute/SrcAE" type="array">
+      <obj_property name="ElementShortName">SrcAE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcAE[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/execute/SrcBE" type="array">
+      <obj_property name="ElementShortName">SrcBE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SrcBE[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/ALUResultE" type="array">
+      <obj_property name="ElementShortName">ALUResultE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultE[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/ALUControlD" type="array">
+      <obj_property name="ElementShortName">ALUControlD[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControlD[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/control_unit/ad/ALUControl" type="array">
+      <obj_property name="ElementShortName">ALUControl[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControl[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/ALUControlE" type="array">
+      <obj_property name="ElementShortName">ALUControlE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUControlE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/RD1D" type="array">
+      <obj_property name="ElementShortName">RD1D[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1D[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/InstrD" type="array">
+      <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/Rs1E" type="array">
+      <obj_property name="ElementShortName">Rs1E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/execute/RD1E" type="array">
+      <obj_property name="ElementShortName">RD1E[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1E[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/execute/ALUResultM" type="array">
+      <obj_property name="ElementShortName">ALUResultM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResultM[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/ForwardAE" type="array">
+      <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/Rs1E" type="array">
+      <obj_property name="ElementShortName">Rs1E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/RdM" type="array">
+      <obj_property name="ElementShortName">RdM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RdM[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/RegWriteM" type="logic">
+      <obj_property name="ElementShortName">RegWriteM</obj_property>
+      <obj_property name="ObjectShortName">RegWriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/hazard_unit/ForwardAE" type="array">
+      <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/ForwardBE" type="array">
+      <obj_property name="ElementShortName">ForwardBE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwardBE[1:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/hazard_unit/RegWriteM" type="logic">
+      <obj_property name="ElementShortName">RegWriteM</obj_property>
+      <obj_property name="ObjectShortName">RegWriteM</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/hazard_unit/Rs1E" type="array">
+      <obj_property name="ElementShortName">Rs1E[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Rs1E[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_riscv_top/dut/hazard_unit/RdM" type="array">
+      <obj_property name="ElementShortName">RdM[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RdM[4:0]</obj_property>
+   </wvobject>
+</wave_config>
